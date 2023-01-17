@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- ===== BOX ICONS ===== -->
+		
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+        <title>Responsive personal portfolio | Waleed Arif</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu ' ></i>
+                </div>
+
+                <div>
+                    <a href="#" class="nav__logo">Waleed</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <div class="nav__close" id="nav-close">
+                        <i class='bx bx-x' ></i>
+                    </div>
+
+                    <ul class="nav__list">
+                
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                        <li class="nav__item"><a href="#works" class="nav__link">Works</a></li>
+						<li class="nav__item"><a href="#Converter" class="nav__link">Currency Converter</a></li>
+						<li class="nav__item"><a href="#Forcaster" class="nav__link">Forecaster</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contactme</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        
+
+            <!--===== ABOUT =====-->
+            <section class="about section" id="about">
+                <span class="section-subtitle">My Intro</span>
+                <h2 class="section-title">About Me</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__data">
+                        <p class="about__text">Hi, I'm a frontend developer, passionate about creating and developing web interfaces. I have many years of experience in this area of work, with multiple quality projects.</p>
+                        <img src="assets/img/profile.png" alt="" class="about__img">
+                    </div>
+
+                    <div>
+                        <div class="about__information">
+                            <h3 class="about__information-title">Information</h3>
+    
+                            <div class="about__information-data">
+                                <i class='bx bx-user about__information-icon'></i>
+                                <span>Waleed Arif</span>
+                            </div>
+    
+                            <div class="about__information-data">
+                                <i class='bx bx-phone about__information-icon' ></i>
+                                <span>07399-432273</span>
+                            </div>
+    
+                            <div class="about__information-data">
+                                <i class='bx bx-envelope about__information-icon' ></i>
+                                <span>warif47@live.com</span>
+                            </div>
+                        </div>
+    
+                        <div class="about__information">
+                            <h3 class="about__information-title">Experience and support</h3>
+    
+                            <div class="about__information-data">
+                                <i class='bx bx-medal about__information-icon' ></i>
+                                <div>
+                                    <span class="about__information-subtitle">5 Years Job</span>
+                                    <span class="about__information-subtitle-small">Experience</span>
+                                </div>
+                            </div>
+    
+                            <div class="about__information-data">
+                                <i class='bx bx-briefcase-alt about__information-icon' ></i>
+                                <div>
+                                    <span class="about__information-subtitle">50+ Projects</span>
+                                    <span class="about__information-subtitle-small">Completed</span>
+                                </div>
+                            </div>
+    
+                            <div class="about__information-data">
+                                <i class='bx bx-support about__information-icon' ></i>
+                                <div>
+                                    <span class="about__information-subtitle">Support</span>
+                                    <span class="about__information-subtitle-small">Online 24/7</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <span class="section-subtitle">Why Choose Me</span>
+                <h2 class="section-title">My Expertise Area</h2>
+
+                <div class="skills__container bd-grid">
+                    <div class="skills__content">
+                        <h3 class="skills__subtitle">Frontend</h3>
+
+                        <div class="skills__data">
+                            <span class="skills__name">Html/css</span>
+                            <span class="skills__number">80%</span>
+                            <span class="skills__bar skills__html"></span>
+                        </div>
+
+                        <div class="skills__data">
+                            <span class="skills__name">Javascript</span>
+                            <span class="skills__number">90%</span>
+                            <span class="skills__bar skills__js"></span>
+                        </div>
+
+                        <div class="skills__data">
+                            <span class="skills__name">React</span>
+                            <span class="skills__number">70%</span>
+                            <span class="skills__bar skills__react"></span>
+                        </div>
+
+                        <div class="skills__data">
+                            <span class="skills__name">Angular</span>
+                            <span class="skills__number">60%</span>
+                            <span class="skills__bar skills__angular"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills__content">
+                        <h3 class="skills__subtitle">Backend</h3>
+
+                        <div class="skills__data">
+                            <span class="skills__name">Php</span>
+                            <span class="skills__number">80%</span>
+                            <span class="skills__bar skills__php"></span>
+                        </div>
+
+                        <div class="skills__data">
+                            <span class="skills__name">Node js</span>
+                            <span class="skills__number">70%</span>
+                            <span class="skills__bar skills__node"></span>
+                        </div>
+
+                        <div class="skills__data">
+                            <span class="skills__name">Firebase</span>
+                            <span class="skills__number">90%</span>
+                            <span class="skills__bar skills__firebase"></span>
+                        </div>
+
+                        <div class="skills__data">
+                            <span class="skills__name">Python</span>
+                            <span class="skills__number">60%</span>
+                            <span class="skills__bar skills__python"></span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== EDUCATION =====-->
+            <section class="education section">
+                <span class="section-subtitle">Qualification</span>
+                <h2 class="section-title">My Education</h2>
+
+                <div class="education__container bd-grid">
+                    <div class="education__content">
+                        <div>
+                            <h3 class="education__year">2022 - Continue</h3>
+                            <span class="education__university">Staffordshire University</span>
+                        </div>
+
+                        <div class="education__time">
+                            <span class="education__rounder"></span>
+                            <span class="education__line"></span>
+                        </div>
+
+                        <div>
+                            <h3 class="education__race">Masters in Computer Science</h3>
+                            <span class="education__specialty">Software Engineering</span> 
+                        </div>
+                    </div>
+
+                    <div class="education__content">
+                        <div>
+                            <h3 class="education__year">2018 - 2020</h3>
+                            <span class="education__university">Web Smart Acdemy</span>
+                        </div>
+
+                        <div class="education__time">
+                            <span class="education__rounder"></span>
+                            <span class="education__line"></span>
+                        </div>
+
+                        <div>
+                            <h3 class="education__race">Diploma Design</h3>
+                            <span class="education__specialty">UI/UX</span> 
+                        </div>
+                    </div>
+
+                    <div class="education__content">
+                        <div>
+                            <h3 class="education__year">2013 - 2015</h3>
+                            <span class="education__university">Mirpur University Science & Technology</span>
+                        </div>
+
+                        <div class="education__time">
+                            <span class="education__rounder"></span>
+                            <span class="education__line"></span>
+                        </div>
+
+                        <div>
+                            <h3 class="education__race">MCS</h3>
+                            <span class="education__specialty">Computer Science</span> 
+                        </div>
+                    </div>
+
+                   
+                </div>
+            </section>
+
+            <!--===== SERVICES =====-->
+            <section class="services section" id="services">
+                <span class="section-subtitle">What I Offer</span>
+                <h2 class="section-title">My Services</h2>
+
+                <div class="services__container bd-grid">
+                    <div class="services__content">
+                    
+                        <h3 class="services__title">Web Design</h3>
+                        <p class="services__description">This service that I offer is of high quality, and above all experience that I have in the labor field for many years.</p>
+                    </div>
+
+                    <div class="services__content">
+                    
+                        <h3 class="services__title">UI/UX</h3>
+                        <p class="services__description">This service that I offer is of high quality, and above all experience that I have in the labor field for many years.</p>
+                    </div>
+
+                    <div class="services__content">
+                        
+                        <h3 class="services__title">Web Design</h3>
+                        <p class="services__description">This service that I offer is of high quality, and above all experience that I have in the labor field for many years.</p>
+                    </div>
+
+                    <div class="services__content">
+                        
+                        <h3 class="services__title">Backend development</h3>
+                        <p class="services__description">This service that I offer is of high quality, and above all experience that I have in the labor field for many years. </p>
+                    </div>
+
+                    <div class="services__content">
+                       
+                        <h3 class="services__title">Content Writing</h3>
+                        <p class="services__description">This service that I offer is of high quality, and above all experience that I have in the labor field for many years.</p>
+                    </div>
+
+                    <div class="services__content">
+                        
+                        <h3 class="services__title">Interface Movil</h3>
+                        <p class="services__description">This service that I offer is of high quality, and above all experience that I have in the labor field for many years.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== WORKS =====-->
+            <section class="works section" id="works">
+                <span class="section-subtitle">My Portfolio</span>
+                <h2 class="section-title">Recent Works</h2>
+
+                <div class="works__container bd-grid">
+                    <div class="works__img">
+                        <img src="assets/img/work1.jpg" alt="">
+
+                        <div class="works__data">
+                            <!-- Insert your job link into href = "" -->
+                            <a href="#" target="_blank" class="works__link"><i class='bx bx-link-alt' ></i></a>
+                            <span class="works__title">Work 1</span>
+                        </div>
+                    </div>
+                    <div class="works__img">
+                        <img src="assets/img/work2.jpg" alt="">
+
+                        <div class="works__data">
+                            <a href="#" target="_blank" class="works__link"><i class='bx bx-link-alt' ></i></a>
+                            <span class="works__title">Work 2</span>
+                        </div>
+                    </div>
+                    <div class="works__img">
+                        <img src="assets/img/work3.jpg" alt="">
+
+                        <div class="works__data">
+                            <a href="#" target="_blank" class="works__link"><i class='bx bx-link-alt' ></i></a>
+                            <span class="works__title">Work 3</span>
+                        </div>
+                    </div>
+                    <div class="works__img">
+                        <img src="assets/img/work4.jpg" alt="">
+
+                        <div class="works__data">
+                            <a href="#" target="_blank" class="works__link"><i class='bx bx-link-alt' ></i></a>
+                            <span class="works__title">Work 4</span>
+                        </div>
+                    </div>
+                    <div class="works__img">
+                        <img src="assets/img/work5.jpg" alt="">
+
+                        <div class="works__data">
+                            <a href="#" target="_blank" class="works__link"><i class='bx bx-link-alt' ></i></a>
+                            <span class="works__title">Work 5</span>
+                        </div>
+                    </div>
+                    <div class="works__img">
+                        <img src="assets/img/work6.jpg" alt="">
+
+                        <div class="works__data">
+                            <a href="#" target="_blank" class="works__link"><i class='bx bx-link-alt' ></i></a>
+                            <span class="works__title">Work 6</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+			
+			    <!-- Converter Section -->
+    <section class="section bg-custom-gray" id="Converter" style="padding: 4%">
+        <div class="cvsection">
+            <h2 class="section-title">Currency Converter</h2>
+            <div class="Converter" style="text-align: center">
+               <h5 class="title text-danger">
+                <span class="scurr clabel">Source currency : </span>
+                <select id="fromamount" onchange="passvaluefun();">
+                    <option value="USD" selected>USD</option>
+                    <option value="AED">AED</option>
+                    <option value="ARS">ARS</option>
+                    <option value="AUD">AUD</option>
+                    <option value="BGN">BGN</option>
+                    <option value="BRL">BRL</option>
+                    <option value="BSD">BSD</option>
+                    <option value="CAD">CAD</option>
+                    <option value="CHF">CHF</option>
+                    <option value="CLP">CLP</option>
+                    <option value="CNY">CNY</option>
+                    <option value="COP">COP</option>
+                    <option value="CZK">CZK</option>
+                    <option value="DKK">DKK</option>
+                    <option value="DOP">DOP</option>
+                    <option value="EGP">EGP</option>
+                    <option value="EUR">EUR</option>
+                    <option value="FJD">FJD</option>
+                    <option value="GBP">GBP</option>
+                    <option value="GTQ">GTQ</option>
+                    <option value="HKD">HKD</option>
+                    <option value="HRK">HRK</option>
+                    <option value="HUF">HUF</option>
+                    <option value="IDR">IDR</option>
+                    <option value="ILS">ILS</option>
+                    <option value="INR">INR</option>
+                    <option value="ISK">ISK</option>
+                    <option value="JPY">JPY</option>
+                    <option value="KRW">KRW</option>
+                    <option value="KZT">KZT</option>
+                    <option value="MVR">MVR</option>
+                    <option value="MXN">MXN</option>
+                    <option value="MYR">MYR</option>
+                    <option value="NOK">NOK</option>
+                    <option value="NZD">NZD</option>
+                    <option value="PAB">PAB</option>
+                    <option value="PEN">PEN</option>
+                    <option value="PHP">PHP</option>
+                    <option value="PKR">PKR</option>
+                    <option value="PLN">PLN</option>
+                    <option value="PYG">PYG</option>
+                    <option value="RON">RON</option>
+                    <option value="RUB">RUB</option>
+                    <option value="SAR">SAR</option>
+                    <option value="SEK">SEK</option>
+                    <option value="SGD">SGD</option>
+                    <option value="THB">THB</option>
+                    <option value="TRY">TRY</option>
+                    <option value="TWD">TWD</option>
+                    <option value="UAH">UAH</option>
+                    <option value="UYU">UYU</option>
+                    <option value="ZAR">ZAR</option>
+                </select>
+            </h5>
+            <h5 class="title text-danger">
+                <span class="scurr clabel">Destination Currency : </span>
+                <select id="toamount" onchange="passvaluefunction()">
+                    <option value="USD">USD</option>
+                    <option value="AED">AED</option>
+                    <option value="ARS">ARS</option>
+                    <option value="AUD">AUD</option>
+                    <option value="BGN">BGN</option>
+                    <option value="BRL">BRL</option>
+                    <option value="BSD">BSD</option>
+                    <option value="CAD">CAD</option>
+                    <option value="CHF">CHF</option>
+                    <option value="CLP">CLP</option>
+                    <option value="CNY">CNY</option>
+                    <option value="COP">COP</option>
+                    <option value="CZK">CZK</option>
+                    <option value="DKK">DKK</option>
+                    <option value="DOP">DOP</option>
+                    <option value="EGP">EGP</option>
+                    <option value="EUR">EUR</option>
+                    <option value="FJD">FJD</option>
+                    <option value="GBP" selected>GBP</option>
+                    <option value="GTQ">GTQ</option>
+                    <option value="HKD">HKD</option>
+                    <option value="HRK">HRK</option>
+                    <option value="HUF">HUF</option>
+                    <option value="IDR">IDR</option>
+                    <option value="ILS">ILS</option>
+                    <option value="INR">INR</option>
+                    <option value="ISK">ISK</option>
+                    <option value="JPY">JPY</option>
+                    <option value="KRW">KRW</option>
+                    <option value="KZT">KZT</option>
+                    <option value="MVR">MVR</option>
+                    <option value="MXN">MXN</option>
+                    <option value="MYR">MYR</option>
+                    <option value="NOK">NOK</option>
+                    <option value="NZD">NZD</option>
+                    <option value="PAB">PAB</option>
+                    <option value="PEN">PEN</option>
+                    <option value="PHP">PHP</option>
+                    <option value="PKR">PKR</option>
+                    <option value="PLN">PLN</option>
+                    <option value="PYG">PYG</option>
+                    <option value="RON">RON</option>
+                    <option value="RUB">RUB</option>
+                    <option value="SAR">SAR</option>
+                    <option value="SEK">SEK</option>
+                    <option value="SGD">SGD</option>
+                    <option value="THB">THB</option>
+                    <option value="TRY">TRY</option>
+                    <option value="TWD">TWD</option>
+                    <option value="UAH">UAH</option>
+                    <option value="UYU">UYU</option>
+                    <option value="ZAR">ZAR</option>
+                </select>
+            </h5>
+            <h5 class="title text-danger">
+                <span class="clabel">Current Exchange Rate: <span id="currrate"></span> </span>
+            </h5>
+            <h5 class="title text-danger">
+                <span class="clabel">Calculation Timestamp: <span id="currdateandtime"></span> </span>
+            </h5>
+            <h5 class="title text-danger">
+                <span class="clabel">Amount To be Converted : </span>
+                <input type="number" name="amount" id="amount" min="0">
+            </h5>
+            <div class="finalamount" style="margin: 25px 0px;">
+                <h5 class="title text-danger">Amount of transaction:
+                    <span class="finalValue" id="finalValue"></span>
+                </h5>
+            </div>
+            <button class="button contact__button" id="convert" onclick="convertnow()" type="submit" style="margin: 25px 0px;">Convert Now</button>
+            <!-- reset button -->
+            <button class="button contact__button" onclick="clearVal()">
+                Reset
+            </button> 
+            </div>  
+        </div>            
+    </section>
+    <!-- End of Converter section -->
+
+    <section class="section" id="Forcaster" style="padding: 4%">
+        <div class="cvsection">
+            <h2 class="section-title">Forcaster</h2>
+            <div class="mb-5 forcastingmodesbuttons" style="text-align: -webkit-center;">
+                <button class="button contact__button" type="button" id="historicalmode">Historical Mode</button>
+                <button class="button contact__button" type="button" id="forcastmode">Forecast Mode</button>
+            </div>
+            <div class="forcastingchartdisplayparent" style="padding: 4%"><div class="forcastingchartdisplay"><canvas id="forcaterchart"></canvas></div></div>
+            <div class="mb-5 forcastingnextandpreviousbuttons" style="text-align: -webkit-center;">
+                <button class="button contact__button" type="button" id="preyear">Step Back</button>
+                <button class="button contact__button" type="button" id="nextyear">Next Step</button>
+            </div>
+        </div>
+    </section>
+	    <div id="messagebox" class="overlay">
+        <div class="popup">
+            <h2  class="text-danger" id="message">temp</h2>
+            <a id="close" class="close">&times;</a>
+        </div>
+    </div>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <span class="section-subtitle">Contact Me</span>
+                <h2 class="section-title">Get In Touch</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="" class="contact__form">
+                        <div class="contact__inputs">
+                            <input type="text" placeholder="Name" class="contact__input">
+                            <input type="mail" placeholder="Email" class="contact__input">
+                        </div>
+
+                        <input type="text" placeholder="Project" class="contact__input">
+
+                        <textarea name="" id="" cols="0" rows="10" placeholder="Message" class="contact__input"></textarea>
+
+                        <input type="submit" value="Send Message" class="button contact__button">
+                    </form>
+
+                    <div class="contact__info">
+                        <div class="contact__info">
+                            <h3 class="contact__subtitle">Call me</h3>
+                            <span class="contact__text">07399-432273</span>
+                    
+                        </div>
+
+                        <div class="contact__info">
+                            <h3 class="contact__subtitle">E-mail</h3>
+                            <span class="contact__text">warif47@gmail.com</span>
+                            <span class="contact__text">warif47@live.com</span>
+                        </div>
+
+                        <div class="contact__info">
+                            <h3 class="contact__subtitle">Location</h3>
+                            <span class="contact__text">Stoke in Trent</span>
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer section">
+            <div class="footer__container bd-grid">
+                <h1 class="footer__title">Waleed Arif</h1>
+                <p class="footer__description">I am Waleed Arif and this is my personal website, consult me here.</p>
+                <p class="footer__copy">All right reserved by Waleed Arif - 2023</p>
+            </div>
+        </footer>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
+        </a>
+        
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+		 <script src="assets/js/waleed.js"></script>
+    </body>
+</html>
